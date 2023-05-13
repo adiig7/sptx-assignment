@@ -7,7 +7,7 @@ import HomeTopBar from './HomeTopBar';
 
 const Center = () => {
   return (
-    <div className=" bg-black col-start-2 col-span-4 p-8 border-r border-gray-700">
+    <div className=" bg-black col-start-2 col-span-5 p-8 border-r border-gray-700">
       <HomeTopBar />
       <TutorialBox />
       <Rewards />
