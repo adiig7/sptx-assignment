@@ -17,7 +17,7 @@ import Moon from "./../assets/moon.png"
 
 const Sidebar = () => {
   return (
-    <div className="fixed col-start-1 col-span-2 bg-black overflow-hidden">
+    <div className="fixed col-start-1 col-span-1 bg-black overflow-hidden">
       <aside
         id="logo-sidebar"
         className="top-0 left-0 z-40 mb-16 h-screen transition-transform -translate-x-full sm:translate-x-0"
