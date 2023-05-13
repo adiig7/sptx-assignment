@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen grid grid-cols-7 bg-black">
+      <main className="min-h-screen grid grid-cols-12 bg-black">
         <Sidebar />
         <Center />
         <CustomLinkContainer />
