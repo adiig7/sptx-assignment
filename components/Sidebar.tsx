@@ -1,9 +1,9 @@
-import React from 'react'
-import Image from 'next/image';
-import Logo from "./../assets/logo.png"
-import Category from "./../assets/category.png"
-import Path from "./../assets/path.png"
-import Section2 from "./../assets/section2.png"
+import React from "react";
+import Image from "next/image";
+import Logo from "./../assets/logo.png";
+import Category from "./../assets/category.png";
+import Path from "./../assets/path.png";
+import Section2 from "./../assets/section2.png";
 import Section3 from "./../assets/section3.png";
 import Section4 from "./../assets/section4.png";
 import Section5 from "./../assets/section5.png";
@@ -11,13 +11,13 @@ import Section6 from "./../assets/section6.png";
 import Section7 from "./../assets/section7.png";
 import Section8 from "./../assets/section8.png";
 import Documentation from "./../assets/documentation.png";
-import Language from "./../assets/language.png"
-import ClosingIcon from "./../assets/closing_icon.png"
-import Moon from "./../assets/moon.png"
+import Language from "./../assets/language.png";
+import ClosingIcon from "./../assets/closing_icon.png";
+import Moon from "./../assets/moon.png";
 
 const Sidebar = () => {
   return (
-    <div className="fixed col-start-1 col-span-1 bg-black overflow-hidden">
+    <div className="fixed z-50 col-start-1 col-span-1 bg-black overflow-hidden">
       <aside
         id="logo-sidebar"
         className="top-0 left-0 z-40 mb-16 h-screen transition-transform -translate-x-full sm:translate-x-0"
@@ -175,6 +175,6 @@ const Sidebar = () => {
       </aside>
     </div>
   );
-}
+};
 
-export default Sidebar
+export default Sidebar;
